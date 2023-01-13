@@ -10,7 +10,7 @@ class Settings(BaseModel):
 
     ALGORITHM: str = 'HS256'
 
-    DB_URL: str = 'postgresql+asyncpg://postgres:dev@localhost:5432/smio_obras'
+    DB_URL: str = 'postgresql+asyncpg://postgres:dev@localhost:5432/webhook'
 
     API_V1_STR: str = '/v1/api'
 
